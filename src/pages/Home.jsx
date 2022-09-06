@@ -24,6 +24,7 @@ const Home = () => {
             <option value="9">9</option>
             <option value="10">10</option>
         </select>
+        {/* När vi klickar på denna knapp så hämtar vi värdet på dropdownen och skickar användaren till en ny route */}
         <button onClick={checkValue}>Get post by ID</button>
     </>
   )
